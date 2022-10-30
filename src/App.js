@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Header from './components/Header';
+import Section from './components/Button';
+import SocialMedia from "./components/SocialMedia"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="container ">
+  <Header />
+  <Section content = "Twitter Link" />
+  <Section content = "Zuri Team"/>
+  <Section content = "Zuri Books"/>
+  <Section content = "Python Books"/>
+  <Section content = "Background check for coders"/>
+  <Section content = "Design Books"/>
+ <SocialMedia />
+
+
+
     </div>
   );
 }
