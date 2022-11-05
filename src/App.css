@@ -10,11 +10,24 @@ body{
   border-radius: 275px;
 }
 
-.btn,.socialMedia{
+.btn{
   width: 100%;
   background-color: #EAECF0;
   margin: 0 auto;
   height: 80px;
   border-radius: 9px;
   text-align: center;
+}
+.socialMedia{
+  background-color: #FFFFFF;
+  
+}
+#socialBtn{
+ border: none;
+ background-color: #FFFFFF;
+
+}
+
+.footer{
+  width: 100%;
 }
