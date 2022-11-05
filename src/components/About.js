@@ -1,7 +1,10 @@
+import React from "react";
+
+
 function About() {
   return (
-    <div class="container ">
-      <div className="bg-warning ">
+    <div className="container head" >
+      <div>
         <p className="h1 text-secondary text-center">ABOUT ME</p>
         <p>
           I am Raheem Ibrahim,a frontend web developer.I recently graduated fom
