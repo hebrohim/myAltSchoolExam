@@ -42,3 +42,23 @@ body{
   justify-content: center;
   text-align: center;
 } 
+
+.formBox{
+  background-color:  #EAECF0;
+   min-height: 60vh;
+   font-size: 2rem;
+   border-radius: 20px;
+  padding: 5rem;
+   text-align: center;
+ } 
+
+ input{
+  margin: 20px;
+  border-radius: 10px;
+ 
+ }
+
+ input:focus{
+  border: none;
+ border-collapse: collapse;
+ }
