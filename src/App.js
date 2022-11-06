@@ -10,9 +10,12 @@ import Search from "./components/Search";
 import List from "./components/List";
 import { Routes, Route, Link } from "react-router-dom";
 import ErrorPage from "./components/ErrorPage";
+import ErrorBoundary from "./components/ErrorBoundary";
 function App() {
+   throw Error
   return (
     <div className="container ">
+      <ErrorBoundary>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
@@ -42,6 +45,7 @@ function App() {
       </nav>
 
       <Footer />
+      </ErrorBoundary>
     </div>
   );
 }
