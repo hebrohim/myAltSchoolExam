@@ -61,4 +61,10 @@ body{
  input:focus{
   border: none;
  border-collapse: collapse;
+ 
+ 
+ }
+
+ ul{
+  list-style-type: none;
  }

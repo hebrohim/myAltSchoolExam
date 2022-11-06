@@ -7,8 +7,8 @@ function Contact() {
       <div>
         <p className="h1 text-secondary text-center">let's get in touch</p>
         <form>
-            <input/>
-            <input/><br/>
+            <input placeholder="Drop a message"/>
+            
 <button>Send</button>
         </form>
         
