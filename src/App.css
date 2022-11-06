@@ -68,3 +68,12 @@ body{
  ul{
   list-style-type: none;
  }
+
+ .errorContainer{
+  height: 100vh;
+  background-image: url(./images/errorImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+ }

@@ -7,23 +7,22 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Project from "./components/Projects";
 import Search from "./components/Search";
-import List
- from "./components/List";
+import List from "./components/List";
 import { Routes, Route, Link } from "react-router-dom";
+import ErrorPage from "./components/ErrorPage";
 function App() {
   return (
     <div className="container ">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="project" element={<Project />}>
           <Route path="search" element={<Search />} />
           <Route path="list" element={<List />} />
         </Route>
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
-
-     
 
       <nav>
         <Header />
