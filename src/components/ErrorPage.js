@@ -5,7 +5,7 @@ const ErrorPage = () => {
   return (
     <div className='container errorContainer'>
     
-       <p className='text-danger text-center h3 my-5'>you typed a wrong url!</p>
+       <p className='text-danger text-center h3 '>you typed a wrong url!</p>
         </div>
   )
 }
